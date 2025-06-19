@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Multi Unit Converter</h2>
+    <input type="number" id="inputValue" placeholder="Enter value" />
+
+    <select id="fromUnit">
+      <option value="cm">Centimeter (cm)</option>
+      <option value="m">Meter (m)</option>
+      <option value="km">Kilometer (km)</option>
+      <option value="inch">Inch (in)</option>
+      <option value="ft">Foot (ft)</option>
+      <option value="g">Gram (g)</option>
+      <option value="kg">Kilogram (kg)</option>
+      <option value="lb">Pound (lb)</option>
+      <option value="oz">Ounce (oz)</option>
+      <option value="C">Celsius (°C)</option>
+      <option value="F">Fahrenheit (°F)</option>
+    </select>
+
+    to
+
+    <select id="toUnit">
+      <option value="cm">Centimeter (cm)</option>
+      <option value="m">Meter (m)</option>
+      <option value="km">Kilometer (km)</option>
+      <option value="inch">Inch (in)</option>
+      <option value="ft">Foot (ft)</option>
+      <option value="g">Gram (g)</option>
+      <option value="kg">Kilogram (kg)</option>
+      <option value="lb">Pound (lb)</option>
+      <option value="oz">Ounce (oz)</option>
+      <option value="C">Celsius (°C)</option>
+      <option value="F">Fahrenheit (°F)</option>
+    </select>
+
+    <button onclick="convert()">Convert</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
